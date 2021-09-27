@@ -1,7 +1,7 @@
 public class MyMapEntry {
     Object key;
     Object value;
-    MyMapEntry next;
+    MyMapEntry next; // for HasMap, not used in this implementation
 
     public MyMapEntry(Object key, Object value, MyMapEntry next) {
         this.key = key;
